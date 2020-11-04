@@ -22,7 +22,7 @@ namespace ConsoleTodo
             {
                 DrawView(); //Paints the UI
                 StartListeningForUserKeyPress(); //User Key Input to start Add,Delete,Sort etc. functions.
-                SaveDatatoFile();
+                SaveDataToFile();
             }
 
         }
@@ -43,7 +43,7 @@ namespace ConsoleTodo
             }
         }
 
-        private static void SaveDatatoFile()
+        private static void SaveDataToFile()
         {
             List<string> output = new List<string>();
             foreach (var task in userTasks)
