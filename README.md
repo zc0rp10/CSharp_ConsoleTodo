@@ -1,4 +1,4 @@
-# CLI Todo Application in C#
+#  C# CLI Todo Application
 
 ## Project Description
 This is the first application I wrote while learning C#. It's a simplistic todo application that runs in the terminal and allows the user to Create, Read, Update, Delete tasks.
