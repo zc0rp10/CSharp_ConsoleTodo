@@ -1,6 +1,6 @@
 namespace ConsoleTodo
 {
-    public class Task
+    class Task
     {
         public Task(int taskId, int taskPriority, string taskName)
         {
