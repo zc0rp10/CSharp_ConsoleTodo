@@ -116,6 +116,7 @@ namespace ConsoleTodo
             Console.Write("\n");
             PrintList(); //Gets Current Tasks
             Console.WriteLine("\n------------------------------------------------------------------------");
+            Console.Write("\n")
             Console.WriteLine("A - Add Task | R - Remove Task | E - Edit Task | S - Sort By | Q - Quit");
             Console.Write("\n");
         }
